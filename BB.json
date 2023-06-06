@@ -1,0 +1,25 @@
+{
+    "capabilities": [
+        {
+            "applicationName": "BB_device_Test",
+			"deviceName":"192.168.56.102:5555",
+			"version":"6.0",
+            "browserName": "BlackBerry",
+            "platformName": "ANDROID",
+            "maxInstances": 1
+        }
+    ],
+    "configuration": {
+        "cleanUpCycle": 2000,
+        "timeout": 30000,
+        "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+		"url":"http://0.0.0.0:4730/wd/hub",
+        "host": "0.0.0.0",
+        "port": 4730,
+        "maxSession": 1,
+        "register": true,
+        "registerCycle": 5000,
+        "hubPort": 4444,
+        "hubHost": "172.16.8.1"
+    }
+}

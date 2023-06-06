@@ -1,0 +1,25 @@
+{
+    "capabilities": [
+        {
+            "applicationName": "LG5.0_device_Test",
+			"deviceName":"192.168.56.102:5555",
+			"version":"5.0.2",
+            "browserName": "LG5.0",
+            "platformName": "ANDROID",
+            "maxInstances": 1
+        }
+    ],
+    "configuration": {
+        "cleanUpCycle": 2000,
+        "timeout": 30000,
+        "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+		"url":"http://0.0.0.0:4727/wd/hub",
+        "host": "0.0.0.0",
+        "port": 4720,
+        "maxSession": 1,
+        "register": true,
+        "registerCycle": 5000,
+        "hubPort": 4444,
+        "hubHost": "172.16.14.9"
+    }
+}
